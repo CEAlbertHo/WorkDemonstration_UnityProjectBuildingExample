@@ -11,5 +11,4 @@ Unity 點下 Play 之後的專案啟動機制。
 
 ![Pic3](https://i.ibb.co/cD2PJKR/Addressable-Group.png)
 
-接著透過自己寫的 AssetsLoader 做異步載入 Addressables 場景資源.
-接著在 IEnumerator CheckLoadSceneAsync 檢查是否場景資源都載入，都載入之後釋放原本的場景 ( InitGame ) 並做後續的元件初始化。
+初始化完成後透過自己寫的 AssetsLoader 做異步載入 Addressables 場景資源，接著在 IEnumerator CheckLoadSceneAsync 檢查是否場景資源都載入，都載入之後釋放原本的場景 ( InitGame ) 並做後續的元件初始化。
