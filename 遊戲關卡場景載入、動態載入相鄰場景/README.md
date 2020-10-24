@@ -14,4 +14,6 @@
 
 目前的設計是當玩家碰觸到掛載腳本的物件 ( 掛載自己寫的 Component & Collider2D 元件 ) ，並且類行為傳送門類型時，查表查出傳送目標關卡及位置，並且會重複上面提到的 CheckAndLoadConnectingStage 來預先載入相鄰的關卡 ( 以目前的範例來說，Stage_00002 會和 Stage_00003, Stage_00004 相連 )。
 ![Dynamic Load Stage _ 40percent](https://i.ibb.co/vcMZbXs/Dynamic-Load-Stage-40percent.gif)
-( 補充 : 因為 GIF 原圖太大，所以有做縮小處理. 原圖位置 )
+( 補充 : 因為 GIF 原圖太大，所以有做縮小處理.
+
+ 壓縮檔位置 : [part1](https://github.com/CEAlbertHo/WorkDemonstration_UnityProjectBuildingExample/blob/master/MarkdownPicsArchive/%E9%81%8A%E6%88%B2%E9%97%9C%E5%8D%A1%E5%A0%B4%E6%99%AF%E8%BC%89%E5%85%A5%E3%80%81%E5%8B%95%E6%85%8B%E8%BC%89%E5%85%A5%E7%9B%B8%E9%84%B0%E5%A0%B4%E6%99%AF%20_%20Pics/Dynamic%20Load%20Stage%20_%20Original%20Size.part1.rar) [part2](https://github.com/CEAlbertHo/WorkDemonstration_UnityProjectBuildingExample/blob/master/MarkdownPicsArchive/%E9%81%8A%E6%88%B2%E9%97%9C%E5%8D%A1%E5%A0%B4%E6%99%AF%E8%BC%89%E5%85%A5%E3%80%81%E5%8B%95%E6%85%8B%E8%BC%89%E5%85%A5%E7%9B%B8%E9%84%B0%E5%A0%B4%E6%99%AF%20_%20Pics/Dynamic%20Load%20Stage%20_%20Original%20Size.part2.rar) )
