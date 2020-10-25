@@ -5,4 +5,4 @@
 目前的互動類型設定為一般互動的時候，會開啟對話視窗 UI。
 
 ![UI Interact Demo](https://i.ibb.co/Jkqgzmn/UI-Interact-Demo.gif)
-
+UI 的部分是很一般的點擊事件，比較特別的是為了處理對話，所以另外寫了一個 DialogueManager，特別用來處理對話以及對話演出 ( 預定之後要新增 ) 的部分。
